@@ -129,5 +129,5 @@ export function intl_format_date(
 		)
 	}
 
-	return new Intl.DateTimeFormat(locale, options)
+	return new Intl.DateTimeFormat(locale, options).format(value)
 }
